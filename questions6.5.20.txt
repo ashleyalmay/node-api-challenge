@@ -1,0 +1,17 @@
+ Mention two parts of Express that you learned about this week.
+    -Methods like GET and post
+    -routing 
+
+ Describe Middleware?
+    -Middleware functions are functions that have access to the request object (req), the response object (res), and the next middleware function in the application's request-response cycle. The next middleware function is commonly denoted by a variable named next.
+
+ Describe a Resource?
+    -RESTful API = A resource is an object with a type, associated data, relationships to other resources, and a set of methods that operate on it.
+    REpresentational State Transfer = rest
+
+
+ What can the API return to help clients know if a request was successful?
+    -the codes like 200 or 404 
+
+ How can we partition our application into sub-applications?
+    -it would be the pathing like if you need to test tto things you wouldn't be able to use the same name so you put them in two diff. files.
